@@ -54,6 +54,7 @@ ul{
     line-height: 1,9;
     letter-spacing: 0.06em;
     text-align: center;
+    cursor: pointer;
 }
 .hero-title{
     color: #FFFFFF;
@@ -67,12 +68,15 @@ ul{
 /* Filter */
 .button{
     font-family: inherit;
+    cursor: pointer;
 }
 .filter .button{
-    color:var(--primary-text-color);    
+    color:var(--primary-text-color);   
+    cursor: pointer; 
 }
 .filter .button{
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .filter .button:hover,:focus{
     color:#FFFFFF;
